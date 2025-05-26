@@ -1,7 +1,7 @@
 let TABLO = document.getElementById("TABLO")
 
 function VTABLO(input) {
-    if (TABLO.value === "+" || TABLO.value === "0" || TABLO.value === "-" || TABLO.value === "/" || TABLO.value === "*" || TABLO.value === "Ашипка") {
+    if (TABLO.value === "+" || TABLO.value === "0" || TABLO.value === "-" || TABLO.value === "/" || TABLO.value === "*" || TABLO.value === "Ошибка") {
         TABLO.value = input
     }
     else {TABLO.value += input;
@@ -18,7 +18,7 @@ try {
      TABLO.value = REZULTAT
       }
       catch(error){
-        TABLO.value = "Ашипка";
+        TABLO.value = "Ошибка";
     }
         ISTORIA(TABLO.value);
     
