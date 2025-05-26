@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>СЧЕТЫ</title>
+    <link rel="stylesheet" href="./KALKUL.css">
+</head>
+<body>
+    <div class="KALKULATOR">
+        <input type="text" id="TABLO" disabled>
+        <div class="KNOPARI">
+            <button onclick="VTABLO('+')">+</button>
+            <button onclick="VTABLO('7')">7</button>
+            <button onclick="VTABLO('8')">8</button>
+            <button onclick="VTABLO('9')">9</button>
+            <button onclick="VTABLO('-')">-</button>
+            <button onclick="VTABLO('4')">4</button>
+            <button onclick="VTABLO('5')">5</button>
+            <button onclick="VTABLO('6')">6</button>
+            <button onclick="VTABLO('*')">x</button>
+            <button onclick="VTABLO('1')">1</button>
+            <button onclick="VTABLO('2')">2</button>
+            <button onclick="VTABLO('3')">3</button>
+            <button onclick="VTABLO('/')">/</button>
+            <button onclick="VTABLO('0')">0</button>
+            <button onclick="SCHET()">=</button>
+            <button onclick="OCHISTKA()">C</button>
+        </div>
+        <div id="ISTORIA" class="ISTORIA"></div>
+    </div>
+    <script src="./schet.js"></script>
+</body>
+</html>
